@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    background-color: rgb(30, 130, 230);
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: Arial, "Poppins", sans-serif;
+    font-weight: 700;
+    color: white;
+    transition: 0.7s cubic-bezier(0.08, 0.22, 0.8, 0.52);
+}
+
+nav ul li a:hover {
+    color: rgb(10, 17, 28);
+}
+
+.srch {
+    width: 300px;
+    display: flex;
+    height: 25px;
+}
+
+input {
+    padding: 0 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+input:hover {
+    outline: none;
+
+}
+
+.btn {
+    background-color: #16426f;
+    color: white;
+    font-size: 16px;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 6px;
+    /* width: 100%; */
+    margin-left: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #142b73;
+    outline: 2px solid black;
+    outline-offset: 1.7px;
+}
+
+
+
+/* About Us Section */
+.about-us {
+    font-family: Arial, sans-serif;
+    width: 70%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(250, 235, 215, 0.301);
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.176);
+    border-radius: 6px;
+    color: #333;
+}
+
+.about-us h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.about-us p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: justify;
+    text-align-last: center;
+    /* border: 2px solid black; */
+    box-shadow: 1px 0px 13px rgba(0, 0, 0, 0.176);
+    ;
+    padding: 6px;
+    font-weight: 600;
+    width: 100%;
+    background-color: aliceblue;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: 0.7s cubic-bezier(0.08, 0.22, 0.8, 0.52);
+}
+
+.about-us p:hover {
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    background: linear-gradient(45deg, rgb(30, 130, 230), rgb(142, 13, 167));
+    color: transparent;
+    box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.176);
+    ;
+    background-clip: text;
+}
+
+.about-us h2 {
+    font-size: 28px;
+    background: linear-gradient(45deg, rgb(30, 130, 230), rgb(142, 13, 167));
+    color: transparent;
+    background-clip: text;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about-us ul {
+    list-style-type: circle;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+.about-us ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+.about-us ul li strong {
+    /* color: rgb(30, 130, 230); */
+    text-transform: uppercase;
+    background: linear-gradient(45deg, rgb(230, 107, 30), rgb(142, 13, 167));
+    color: transparent;
+    background-clip: text;
+    font-family: sans-serif;
+}
+
+.about-us h2:hover {
+    width: 270px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.543);
+    font-size: 28px;
+    background: linear-gradient(45deg, rgb(30, 130, 230), rgb(142, 13, 167));
+    color: transparent;
+    background-clip: text;
+    margin: 20px auto;
+    animation: ho 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+    -webkit-animation: ho 4s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+@keyframes ho {
+    0% {
+        border: 3px solid red;
+    }
+
+    10% {
+        border: 3px solid orange;
+
+    }
+
+    20% {
+        border: 3px solid yellow;
+    }
+
+    30% {
+        border: 3px solid green;
+    }
+
+    40% {
+        border: 3px solid cyan;
+    }
+
+    50% {
+        border: 3px solid rgb(0, 85, 255);
+    }
+
+    60% {
+        border: 3px solid blue;
+    }
+
+    70% {
+        border: 3px solid indigo;
+    }
+
+    80% {
+        border: 3px solid violet;
+    }
+
+    90% {
+        border: 3px solid pink;
+    }
+
+    100% {
+        border: 3px solid red;
+        background-color: aliceblue;
+    }
+}
+
+.foot {
+    background-color: rgb(30, 130, 230);
+    height: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: -webkit-sticky;
+    top: 100%;
+}
+
+.foot p {
+    color: white;
+    text-align: center;
+    font-family: Arial, "Poppins", sans-serif;
+    margin: auto;
+}
+
+@media (min-width:320px) and (max-width: 576px) {
+
+    header {
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0px auto;
+        padding: 9px;
+        font-size: 13px;
+        transition: 0.7s cubic-bezier(0.08, 0.22, 0.8, 0.52);
+    }
+
+    .srch {
+        width: 200px;
+
+    }
+
+    .about-us {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .foot {
+        font-size: 14px;
+    }
+}
+
+
+/* Tablets (portrait) */
+@media (min-width: 577px) and (max-width: 768px) {
+
+    header {
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+    }
+
+    nav ul li {
+        margin: 0px auto;
+        padding: 9px;
+        font-size: 13px;
+        transition: 0.7s cubic-bezier(0.08, 0.22, 0.8, 0.52);
+    }
+
+    .srch {
+        width: 230px;
+        margin-right: 10px;
+    }
+}
